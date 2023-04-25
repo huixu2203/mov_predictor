@@ -1,12 +1,11 @@
 
 
-
-                                                 #   Movie Predictor
+ # Movie Predictor
+                                                
 
 In this project we use TMDB dataset to recommend top 5 similar movies to user, according to the input movie given by the user.
 
-
-                                                    ## How to use?
+## How to use:
 
 1. Download the dataset (https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata?select=tmdb_5000_movies.csv)
 
@@ -16,8 +15,9 @@ In this project we use TMDB dataset to recommend top 5 similar movies to user, a
 
 4. The ML model will run in your browser.
                                              
-                                                   ## About
-                                                   
+                                                  
+ ## About:
+ 
 1. It is a content based recommender system which reccomends movies according to the similarity of the content input by the user.
 2. For the our model we kept genres, id, keywords, overview, cast, crew.
 3. we remove language column as approx 95% of the movies are in english, we will also keep the title not original title as original title can be in different language.
